@@ -1,3 +1,27 @@
-html {
+html,
+body {
     font-family: "Helvetica", "sans-serif";
+    height: 100%;
+    margin: 1%;
+}
+
+body {
+    background: linear-gradient(
+        180deg,
+        rgba(148, 187, 233, 1) 0%,
+        rgba(238, 174, 202, 1) 100%
+    );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Content {
+    background-color: #fffff5;
+    border-radius: 7.5px;
+    text-align: center;
+    width: 25%;
+    margin: auto;
+    padding-right: 5px;
+    padding-left: 5px;
 }
