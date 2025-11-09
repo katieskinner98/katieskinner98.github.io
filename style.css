@@ -9,7 +9,8 @@ body {
     background: linear-gradient(
         180deg,
         rgba(148, 187, 233, 1) 0%,
-        rgba(238, 174, 202, 1) 100%
+        rgba(249, 249, 247, 1) 50%,
+        rgba(246, 229, 141, 1) 100%
     );
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -36,4 +37,17 @@ body {
     width: fit-content; /* shrink to fit the widest child */
     min-width: 25vw; /* scale with screen size, no smaller than this */
     max-width: 50vw; /* optional: cap size */
+}
+
+.Icons {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.25em 0 0.25em 0.75em;
+}
+
+.Profile {
+    width: 234.2px;
+    height: 256.8px;
+    border-radius: 20%;
 }
