@@ -9,8 +9,7 @@ body {
     background: linear-gradient(
         180deg,
         rgba(148, 187, 233, 1) 0%,
-        rgba(249, 249, 247, 1) 50%,
-        rgba(246, 229, 141, 1) 100%
+        rgba(238, 174, 202, 1) 100%
     );
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -27,6 +26,8 @@ body {
     margin: auto;
     width: 100%; /* all boxes same width */
     box-sizing: border-box;
+    white-space: nowrap;
+    font-size: clamp(0.8rem, 2vw, 1rem);
 }
 
 .container {
